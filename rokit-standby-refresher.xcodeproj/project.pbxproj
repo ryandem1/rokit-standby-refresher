@@ -20,6 +20,7 @@
 		A043263128A99E7A0032CCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A043263628A99E7A0032CCC9 /* rokit_standby_refresher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rokit_standby_refresher.entitlements; sourceTree = "<group>"; };
 		A043263C28A99EF60032CCC9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A0DEE8BC28A9A50000A6E063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		A043262C28A99E790032CCC9 /* rokit-standby-refresher */ = {
 			isa = PBXGroup;
 			children = (
+				A0DEE8BC28A9A50000A6E063 /* Info.plist */,
 				A043262D28A99E790032CCC9 /* AppDelegate.swift */,
 				A043262F28A99E790032CCC9 /* ViewController.swift */,
 				A043263128A99E7A0032CCC9 /* Assets.xcassets */,
@@ -264,6 +266,7 @@
 				DEVELOPMENT_TEAM = 3Z96FFWG8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rokit-standby-refresher/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +293,7 @@
 				DEVELOPMENT_TEAM = 3Z96FFWG8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rokit-standby-refresher/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
