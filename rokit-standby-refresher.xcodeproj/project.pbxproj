@@ -11,9 +11,6 @@
 		A0B0E48028A88F4F00C36CD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0E47F28A88F4F00C36CD8 /* ContentView.swift */; };
 		A0B0E48228A88F5100C36CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B0E48128A88F5100C36CD8 /* Assets.xcassets */; };
 		A0B0E48528A88F5100C36CD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B0E48428A88F5100C36CD8 /* Preview Assets.xcassets */; };
-		A0B0E49028A88F5100C36CD8 /* rokit_standby_refresherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0E48F28A88F5100C36CD8 /* rokit_standby_refresherTests.swift */; };
-		A0B0E49A28A88F5100C36CD8 /* rokit_standby_refresherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0E49928A88F5100C36CD8 /* rokit_standby_refresherUITests.swift */; };
-		A0B0E49C28A88F5100C36CD8 /* rokit_standby_refresherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0E49B28A88F5100C36CD8 /* rokit_standby_refresherUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		A0B0E48428A88F5100C36CD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0B0E48628A88F5100C36CD8 /* rokit_standby_refresher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rokit_standby_refresher.entitlements; sourceTree = "<group>"; };
 		A0B0E48B28A88F5100C36CD8 /* rokit-standby-refresherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rokit-standby-refresherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B0E48F28A88F5100C36CD8 /* rokit_standby_refresherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokit_standby_refresherTests.swift; sourceTree = "<group>"; };
 		A0B0E49528A88F5100C36CD8 /* rokit-standby-refresherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rokit-standby-refresherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0B0E49928A88F5100C36CD8 /* rokit_standby_refresherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokit_standby_refresherUITests.swift; sourceTree = "<group>"; };
-		A0B0E49B28A88F5100C36CD8 /* rokit_standby_refresherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokit_standby_refresherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				A0B0E47C28A88F4F00C36CD8 /* rokit-standby-refresher */,
-				A0B0E48E28A88F5100C36CD8 /* rokit-standby-refresherTests */,
-				A0B0E49828A88F5100C36CD8 /* rokit-standby-refresherUITests */,
 				A0B0E47B28A88F4F00C36CD8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				A0B0E48428A88F5100C36CD8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A0B0E48E28A88F5100C36CD8 /* rokit-standby-refresherTests */ = {
-			isa = PBXGroup;
-			children = (
-				A0B0E48F28A88F5100C36CD8 /* rokit_standby_refresherTests.swift */,
-			);
-			path = "rokit-standby-refresherTests";
-			sourceTree = "<group>";
-		};
-		A0B0E49828A88F5100C36CD8 /* rokit-standby-refresherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A0B0E49928A88F5100C36CD8 /* rokit_standby_refresherUITests.swift */,
-				A0B0E49B28A88F5100C36CD8 /* rokit_standby_refresherUITestsLaunchTests.swift */,
-			);
-			path = "rokit-standby-refresherUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B0E49028A88F5100C36CD8 /* rokit_standby_refresherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B0E49A28A88F5100C36CD8 /* rokit_standby_refresherUITests.swift in Sources */,
-				A0B0E49C28A88F5100C36CD8 /* rokit_standby_refresherUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
