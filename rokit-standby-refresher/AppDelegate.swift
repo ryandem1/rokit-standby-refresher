@@ -28,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         // 3
         if let button = statusItem.button {
-            button.image = NSImage(systemSymbolName: "1.circle", accessibilityDescription: "1")
+            button.image = NSImage(systemSymbolName: "hifispeaker.fill", accessibilityDescription: "1")
         }
     }
 }
