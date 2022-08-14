@@ -20,6 +20,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "hifispeaker.fill", accessibilityDescription: "1")
         }
+        
+        setupMenus()
+    }
+    
+    func setupMenus() {
+        let menu = NSMenu()
+
+        menu.addItem(NSMenuItem.separator())
+
+        menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+
+        statusItem.menu = menu
     }
 }
 
