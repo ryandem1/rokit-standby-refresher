@@ -21,7 +21,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "hifispeaker.fill", accessibilityDescription: "hifi speaker")
         }
-        
+        Timer.scheduledTimer(timeInterval: 600.0, target: self, selector: #selector(self.playSound), userInfo: nil, repeats: true)
+
         setupMenus()
     }
     
