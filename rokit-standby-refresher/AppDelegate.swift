@@ -6,6 +6,7 @@
 //
 
 import Cocoa
+import AppKit
 
 
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -18,7 +19,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
         if let button = statusItem.button {
-            button.image = NSImage(systemSymbolName: "hifispeaker.fill", accessibilityDescription: "1")
+            button.image = NSImage(systemSymbolName: "hifispeaker.fill", accessibilityDescription: "hifi speaker")
         }
         
         setupMenus()
@@ -28,10 +29,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let menu = NSMenu()
 
         menu.addItem(NSMenuItem.separator())
-
+        menu.addItem(NSMenuItem(title: "Refresh", action: #selector(self.playSound(_:)), keyEquivalent: "r"))
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 
         statusItem.menu = menu
+    }
+    
+    @objc func playSound(_ sender: NSMenuItem) {
+        NSSound(named: "low_sine.wav")?.play()
     }
 }
 
