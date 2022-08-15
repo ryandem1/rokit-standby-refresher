@@ -4,7 +4,7 @@
 //
 //  Created by Ryan de Marigny on 8/14/22.
 //
-// Synth found at: https://gist.github.com/rgcottrell/5b876d9c5eea4c9e411c
+// Synth found at: https://gist.github.com/michaeldorner/746c659476429a86a9970faaa6f95ec4
 
 import AVFoundation
 import Foundation
